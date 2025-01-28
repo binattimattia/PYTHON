@@ -5,14 +5,12 @@ def divisori(numero_positivo):
     for i in range(1, numero_positivo + 1):
         if numero_positivo % i == 0:
             lista_divisori.append(i)
+
     return lista_divisori
 
 def Primo(numero_positivo):
-    divisori = []
-    for i in range(1, numero_positivo + 1):
-        if numero_positivo % i == 0:
-            divisori.append(i)
-    if len(divisori) == 2:
+    if len(divisori(numero_positivo)) == 2:
+
         return True
     
 def Primi_piccoli(numero_positivo):
@@ -29,12 +27,9 @@ def Coprimi(numero_positivo1, numero_positivo2):
         return True
 
 def Eulero(numero_positivo):
-    lista_minori = []
-    lista_minori_coprimi = []
+    contatore = 0
     for i in range(1, numero_positivo):
-        lista_minori.append(i)
-    for i in lista_minori:
         if Coprimi(numero_positivo, i):
-            lista_minori_coprimi.append(i)
-    eulero = len(lista_minori_coprimi)
-    return eulero
+            contatore += 1
+            
+    return contatore
