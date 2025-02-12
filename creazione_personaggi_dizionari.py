@@ -9,7 +9,7 @@
 
 import random
 import funzionidadi
-"""
+
 print('\n#1: CREAZIONE DEL PERSONAGGIO\n')
 # 1. Crea un dizionario inserendo al suo interno:
 # 	 - Un nome scelto a caso dalla lista di nomi
@@ -51,10 +51,11 @@ character["Armour"] = random.randint(5, 10)
 dice = "Random words to run the while loop :)"
 while len(dice.split("d")) != 2:
 	print("Choose an attack dice (ex. 2d6):") 
-	dice = input("Choice: ")
+	dice = input("CHOICE: ")
 	character["Dice"] = dice
 	if len(dice.split("d")) != 2:
 		print("Error!")
+print()
 
 # ****************************************
 
@@ -90,8 +91,8 @@ print('\n#3: STAMPA DEL PERSONAGGIO\n')
 
 # ****************************************
 
-print(f"• Name of the character: {name}")
-print(f"• Class of the character: {character[name]}")
+print(f"• Name of the character: {character['Name']}")
+print(f"• Class of the character: {character['Class']}")
 print(f"• Healt of the character: {character['Healt']}")
 print(f"• Armour of the character: {character['Armour']}")
 print(f"• Dice of the character: {character['Dice']}")
@@ -105,7 +106,7 @@ for item in character['Backpack']:
 print('\n#4: FUNZIONI - CREAZIONE PERSONAGGIO\n')
 # 4. Trasforma il codice della creazione di un personaggio in una funzione chiamata 'create_character'.
 #    La funzione deve restituire un dizionario con i dati del personaggio.
-"""
+
 # ****************************************
 def create_character(names: list, Items: list, Guns: dict) -> dict:
 	letter = "Random words to run the while loop :)"
@@ -126,17 +127,20 @@ def create_character(names: list, Items: list, Guns: dict) -> dict:
 	elif letter == "d":
 		character_class = "Thief"
 		
-	character = {name: character_class}
+	character = {"Name": name,
+				"Class": character_class
+				}
 
 	character["Healt"] = random.randint(80, 100)
 	character["Armour"] = random.randint(5, 10)
 	dice = "Random words to run the while loop :)"
 	while len(dice.split("d")) != 2:
 		print("Choose an attack dice (ex. 2d6):") 
-		dice = input("Choice: ")
+		dice = input("CHOICE: ")
 		character["Dice"] = dice
 		if len(dice.split("d")) != 2:
 			print("Error!")
+	print()
 	
 	items = []
 
@@ -152,14 +156,7 @@ def create_character(names: list, Items: list, Guns: dict) -> dict:
 							"Gun": random.choice(Guns[random.choice(guns_names)])
 							}
 	
-	print(f"• Name of the character: {name}")
-	print(f"• Class of the character: {character[name]}")
-	print(f"• Healt of the character: {character['Healt']}")
-	print(f"• Armour of the character: {character['Armour']}")
-	print(f"• Dice of the character: {character['Dice']}")
-	print(f"• Backpack of the character:")
-	for item in character['Backpack']:
-		print(f"	➝  {item}: {character['Backpack'][item]}")
+
 
 	return character
 	
@@ -184,7 +181,6 @@ def create_party(number_of_characters: int) -> list:
 	
 	return party
 	
-
 # ****************************************
 
 print('\n#6: FUNZIONI - STAMPA PARTY\n')
@@ -193,20 +189,24 @@ print('\n#6: FUNZIONI - STAMPA PARTY\n')
 
 # ****************************************
 def print_party(party):
-	pass
-	
-	## SCRIVI QUI
-	
-# ****************************************
-"""			
+	for character in party:
+		print(f"• Name of the character: {character['Name']}")
+		print(f"• Class of the character: {character['Class']}")
+		print(f"• Healt of the character: {character['Healt']}")
+		print(f"• Armour of the character: {character['Armour']}")
+		print(f"• Dice of the character: {character['Dice']}")
+		print(f"• Backpack of the character:")
+		for item in character['Backpack']:
+			print(f"	➝  {item}: {character['Backpack'][item]}")
+		print()
+# ****************************************		
 print('\nFUNZIONE PRINCIPALE\n')
 # La funzione main qui sotto deve essere compatibile con il tuo codice
 
 # ****************************************
 def main():
-	party = create_party()
+	party = create_party() # ⭠ Insert a number of characters!
 	print_party(party)
 	
 main()
-"""
 # ****************************************
