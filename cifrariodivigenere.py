@@ -8,10 +8,8 @@ def genera_tabula_recta() -> list[list[str]]:
             lettera = chr(numero_ascii)
             riga.append(lettera)
         tabula_recta.append(riga)
-    for riga in tabula_recta:
-        print(riga)
 
-genera_tabula_recta()
+    return tabula_recta
 
 
 def cifra(messaggio: str, chiave: str, tabula_recta: list[list[str]]) -> str:
@@ -25,8 +23,29 @@ def cifra(messaggio: str, chiave: str, tabula_recta: list[list[str]]) -> str:
     Returns:
         Il testo cifrato.
     """
-    pass
+    # Creazione della chiave ripetuta
+    chiave_ripetuta = ""    
+    while len(chiave_ripetuta) < len(messaggio):
+        chiave_ripetuta += chiave
+    chiave_ripetuta = chiave_ripetuta[:len(messaggio)]
 
+    testo_cifrato = ""
+    for i in range(len(messaggio)):
+        index_lettera = 0
+        for riga in tabula_recta:
+            # Se la prima lettera della riga è uguale alla lettera del messaggio
+            if riga[0] == chiave_ripetuta[i]:
+                for lettera in tabula_recta[0]:
+                    if lettera == messaggio[i]:
+                        testo_cifrato += tabula_recta[riga][index_lettera]
+                        break
+                    else: 
+                        index_lettera += 1
+                break
+    return testo_cifrato
+tabula_recta = genera_tabula_recta()
+t = cifra("vaffanculo", "dioporco", tabula_recta)
+print(t)
 
 def decifra(messaggio_cifrato: str, chiave: str, tabula_recta: list[list[str]]) -> str:
     """Decifra un messaggio cifrato con il cifrario di Vigenère usando la tabula recta.
