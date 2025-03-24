@@ -18,34 +18,19 @@ def cifra(messaggio: str, chiave: str, tabula_recta: list[list[str]]) -> str:
     Args:
         messaggio: Il testo da cifrare (solo lettere A-Z, senza spazi o caratteri speciali).
         chiave: La parola chiave usata per la cifratura.
-        tabula_recta: La tabula recta pre-generata.()
+        tabula_recta: La tabula recta pre-generata.
     
     Returns:
         Il testo cifrato.
     """
-    # Creazione della chiave ripetuta
-    chiave_ripetuta = ""    
-    while len(chiave_ripetuta) < len(messaggio):
-        chiave_ripetuta += chiave
-    chiave_ripetuta = chiave_ripetuta[:len(messaggio)]
-
+    chiave_ripetuta = estendi_chiave(chiave, len(messaggio))
     testo_cifrato = ""
     for i in range(len(messaggio)):
-        index_lettera = 0
-        for riga in tabula_recta:
-            # Se la prima lettera della riga è uguale alla lettera del messaggio
-            if riga[0] == chiave_ripetuta[i]:
-                for lettera in tabula_recta[0]:
-                    if lettera == messaggio[i]:
-                        testo_cifrato += tabula_recta[riga][index_lettera]
-                        break
-                    else: 
-                        index_lettera += 1
-                break
+        riga = ord(chiave_ripetuta[i]) - 65
+        colonna = ord(messaggio[i]) - 65
+        testo_cifrato += tabula_recta[riga][colonna]
     return testo_cifrato
-tabula_recta = genera_tabula_recta()
-t = cifra("vaffanculo", "dioporco", tabula_recta)
-print(t)
+
 
 def decifra(messaggio_cifrato: str, chiave: str, tabula_recta: list[list[str]]) -> str:
     """Decifra un messaggio cifrato con il cifrario di Vigenère usando la tabula recta.
@@ -58,7 +43,13 @@ def decifra(messaggio_cifrato: str, chiave: str, tabula_recta: list[list[str]]) 
     Returns:
         Il testo decifrato.
     """
-    pass
+    chiave_ripetuta = estendi_chiave(chiave, len(messaggio_cifrato))
+    testo_decifrato = ""
+    for i in range(len(messaggio_cifrato)):
+        riga = ord(chiave_ripetuta[i]) - 65
+        colonna = tabula_recta[riga].index(messaggio_cifrato[i])
+        testo_decifrato += chr(colonna + 65)
+    return testo_decifrato
 
 
 def normalizza_testo(testo: str) -> str:
@@ -70,7 +61,11 @@ def normalizza_testo(testo: str) -> str:
     Returns:
         Il testo pulito e in maiuscolo.
     """
-    pass
+    testo_pulito = ""
+    for carattere in testo:
+        if carattere.isalpha():
+            testo_pulito += carattere.upper()
+    return testo_pulito
 
 
 def estendi_chiave(chiave: str, lunghezza: int) -> str:
@@ -83,7 +78,7 @@ def estendi_chiave(chiave: str, lunghezza: int) -> str:
     Returns:
         La chiave estesa.
     """
-    pass
+    return (chiave * (lunghezza // len(chiave)) + chiave[:lunghezza % len(chiave)]).upper()
 
 
 def main():
@@ -99,8 +94,7 @@ def main():
         chiave = input("Inserisci la chiave: ")
         messaggio = normalizza_testo(messaggio)
         chiave = normalizza_testo(chiave)
-        chiave_estesa = estendi_chiave(chiave, len(messaggio))
-        testo_cifrato = cifra(messaggio, chiave_estesa, tabula_recta)
+        testo_cifrato = cifra(messaggio, chiave, tabula_recta)
         print(f"Testo cifrato: {testo_cifrato}")
 
     elif scelta == "D":
@@ -108,8 +102,7 @@ def main():
         chiave = input("Inserisci la chiave: ")
         messaggio_cifrato = normalizza_testo(messaggio_cifrato)
         chiave = normalizza_testo(chiave)
-        chiave_estesa = estendi_chiave(chiave, len(messaggio_cifrato))
-        testo_decifrato = decifra(messaggio_cifrato, chiave_estesa, tabula_recta)
+        testo_decifrato = decifra(messaggio_cifrato, chiave, tabula_recta)
         print(f"Testo decifrato: {testo_decifrato}")
 
     else:
