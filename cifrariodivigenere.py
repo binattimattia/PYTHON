@@ -53,7 +53,7 @@ def decifra(messaggio_cifrato: str, chiave: str, tabula_recta: list[list[str]]) 
 
 
 def normalizza_testo(testo: str) -> str:
-    """Rimuove caratteri non alfabetici e converte tutto in maiuscolo per garantire compatibilità con la cifratura.
+    """Rimuove caratteri non alfabetici, accenti e converte tutto in maiuscolo per garantire compatibilità con la cifratura.
     
     Args:
         testo: Il testo di input.
@@ -61,8 +61,14 @@ def normalizza_testo(testo: str) -> str:
     Returns:
         Il testo pulito e in maiuscolo.
     """
+    accenti = {
+        'à': 'a', 'è': 'e', 'é': 'e', 'ì': 'i', 'ò': 'o', 'ù': 'u',
+        'À': 'A', 'È': 'E', 'É': 'E', 'Ì': 'I', 'Ò': 'O', 'Ù': 'U'
+    }
     testo_pulito = ""
     for carattere in testo:
+        if carattere in accenti:
+            carattere = accenti[carattere]
         if carattere.isalpha():
             testo_pulito += carattere.upper()
     return testo_pulito
