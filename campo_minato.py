@@ -31,13 +31,13 @@ def posiziona_mine(griglia: list[list[str]], numero_mine: int) -> None:
     for _ in range(numero_mine):
         numeroRiga = random.randint(0, dimensione - 1)
         numeroColonna = random.randint(0, dimensione - 1)
-        if not griglia[numeroRiga][numeroColonna] == '💣':
-            griglia[numeroRiga][numeroColonna] = '💣'
+        if not griglia[numeroRiga][numeroColonna] == BOMBA:
+            griglia[numeroRiga][numeroColonna] = BOMBA
         else:
-            while griglia[numeroRiga][numeroColonna] == '💣':
+            while griglia[numeroRiga][numeroColonna] == BOMBA:
                 numeroRiga = random.randint(0, dimensione - 1)
                 numeroColonna = random.randint(0, dimensione - 1)
-            griglia[numeroRiga][numeroColonna] = '💣'
+            griglia[numeroRiga][numeroColonna] = BOMBA
 
 def calcola_numeri(griglia):
     """
