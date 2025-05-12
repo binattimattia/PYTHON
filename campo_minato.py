@@ -1,101 +1,114 @@
 import random
 
 BOMBA = '💣'
+CELLA_NASCOSTA = '◼​'
 
-def genera_griglia(dimensione: int) -> list[list[str]]:
-    """
-    Genera una griglia di gioco con mine posizionate casualmente.
-
-    Args:
-        dimensione (int): La dimensione della griglia (N x N).
-
-    Returns:
-        list: La griglia di gioco.
-    """
-    griglia = []
-    for _ in range(dimensione):
-        griglia.append(['🌼'] * dimensione)
-
+def genera_griglia(dimensione, numero_mine):
+    griglia = [['' for _ in range(dimensione)] for _ in range(dimensione)]
+    posiziona_mine(griglia, numero_mine)
+    calcola_numeri(griglia)
     return griglia
 
-def posiziona_mine(griglia: list[list[str]], numero_mine: int) -> None:
-    """
-    Posiziona le mine nella griglia di gioco.
-
-    Args:
-        griglia (list): La griglia di gioco.
-        numero_mine (int): Il numero di mine da posizionare.
-    """
+def posiziona_mine(griglia, numero_mine):
     dimensione = len(griglia)
-
-    for _ in range(numero_mine):
-        numeroRiga = random.randint(0, dimensione - 1)
-        numeroColonna = random.randint(0, dimensione - 1)
-        if not griglia[numeroRiga][numeroColonna] == BOMBA:
-            griglia[numeroRiga][numeroColonna] = BOMBA
-        else:
-            while griglia[numeroRiga][numeroColonna] == BOMBA:
-                numeroRiga = random.randint(0, dimensione - 1)
-                numeroColonna = random.randint(0, dimensione - 1)
-            griglia[numeroRiga][numeroColonna] = BOMBA
+    mine_posizionate = 0
+    while mine_posizionate < numero_mine:
+        riga = random.randint(0, dimensione - 1)
+        colonna = random.randint(0, dimensione - 1)
+        if griglia[riga][colonna] != BOMBA:
+            griglia[riga][colonna] = BOMBA
+            mine_posizionate += 1
 
 def calcola_numeri(griglia):
-    """
-    Calcola il numero di mine adiacenti per ogni cella.
+    dimensione = len(griglia)
+    for r in range(dimensione):
+        for c in range(dimensione):
+            if griglia[r][c] == BOMBA:
+                continue
+            conta = 0
+            for dr in [-1, 0, 1]:
+                for dc in [-1, 0, 1]:
+                    nr, nc = r + dr, c + dc
+                    if 0 <= nr < dimensione and 0 <= nc < dimensione:
+                        if griglia[nr][nc] == BOMBA:
+                            conta += 1
+            griglia[r][c] = ' ' if conta == 0 else str(conta)
 
-    Args:
-        griglia (list): La griglia di gioco.
-    """
-    pass
+def rivela_cella(griglia, riga, colonna, celle_rivelate):
+    if [riga, colonna] in celle_rivelate:
+        return False
 
-def rivela_cella(griglia, riga, colonna):
-    """
-    Rivela il contenuto di una cella.
+    celle_rivelate.append([riga, colonna])
 
-    Args:
-        griglia (list): La griglia di gioco.
-        riga (int): La riga della cella.
-        colonna (int): La colonna della cella.
+    if griglia[riga][colonna] == BOMBA:
+        return True
 
-    Returns:
-        bool: True se la cella contiene una mina, False altrimenti.
-    """
-    pass
+    if griglia[riga][colonna] == ' ':
+        for dr in [-1, 0, 1]:
+            for dc in [-1, 0, 1]:
+                nr, nc = riga + dr, colonna + dc
+                if 0 <= nr < len(griglia) and 0 <= nc < len(griglia):
+                    if [nr, nc] not in celle_rivelate:
+                        rivela_cella(griglia, nr, nc, celle_rivelate)
+
+    return False
 
 def visualizza_griglia(griglia, celle_rivelate):
-    """
-    Visualizza la griglia di gioco.
-
-    Args:
-        griglia (list): La griglia di gioco.
-        celle_rivelate (set): L'insieme delle celle rivelate.
-    """
-    pass
+    dimensione = len(griglia)
+    print("   " + " ".join(str(i) for i in range(dimensione)))
+    for r in range(dimensione):
+        riga_str = f"{r}  "
+        for c in range(dimensione):
+            if [r, c] in celle_rivelate:
+                riga_str += griglia[r][c] + " "
+            else:
+                riga_str += CELLA_NASCOSTA + " "
+        print(riga_str)
 
 def gioco_finito(griglia, celle_rivelate):
-    """
-    Verifica se il gioco è finito.
-
-    Args:
-        griglia (list): La griglia di gioco.
-        celle_rivelate (set): L'insieme delle celle rivelate.
-
-    Returns:
-        bool: True se il gioco è finito, False altrimenti.
-    """
-    pass
+    for r in range(len(griglia)):
+        for c in range(len(griglia)):
+            if griglia[r][c] != BOMBA and [r, c] not in celle_rivelate:
+                return False
+    return True
 
 def main():
-    """
-    Funzione principale del programma.
-    """
     print("- CAMPO MINATO 💣 -")
     dimensione = int(input("Inserisci la dimensione della griglia: "))
-    numero_mine = int(input("Inserisci il numero di mine: "))
-    griglia = genera_griglia(dimensione)
-    posiziona_mine(griglia, numero_mine)
-    for riga in griglia:
-        print(" ".join(riga))
+    numero_mine = int(dimensione * dimensione * 0.15)
+
+    griglia = genera_griglia(dimensione, numero_mine)
+    celle_rivelate = []
+
+    while True:
+        visualizza_griglia(griglia, celle_rivelate)
+
+        try:
+            riga = int(input("Inserisci la riga: "))
+            colonna = int(input("Inserisci la colonna: "))
+        except ValueError:
+            print("Inserisci numeri validi.")
+            continue
+
+        if not (0 <= riga < dimensione and 0 <= colonna < dimensione):
+            print("Coordinate fuori dalla griglia.")
+            continue
+
+        esplosa = rivela_cella(griglia, riga, colonna, celle_rivelate)
+
+        if esplosa:
+            print("BOOM! Hai colpito una mina.")
+            for r in range(dimensione):
+                for c in range(dimensione):
+                    if griglia[r][c] == BOMBA and [r, c] not in celle_rivelate:
+                        celle_rivelate.append([r, c])
+            visualizza_griglia(griglia, celle_rivelate)
+            break
+
+        if gioco_finito(griglia, celle_rivelate):
+            print("Complimenti! Hai vinto!")
+            visualizza_griglia(griglia, celle_rivelate)
+            break
 
 if __name__ == "__main__":
     main()
