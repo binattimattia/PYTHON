@@ -1,0 +1,1082 @@
+[
+    {
+        "name": "Knight",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 0,
+        "description": "A tough melee fighter. The Barbarian's handsome, cultured cousin. Rumor has it that he was knighted based on the sheer awesomeness of his mustache alone.",
+        "draft_tag": ["3costUnit", "Aggressive", "CheapCards", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Archers",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 0,
+        "description": "A pair of lightly armored ranged attackers. They'll help you take down ground and air units, but you're on your own with hair coloring advice.",
+        "draft_tag": ["3costUnit", "AntiAir", "CheapCards"]
+    },
+    {
+        "name": "Goblins",
+        "elixir": 2,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 1,
+        "description": "Four fast, unarmored melee attackers. Small, fast, green and mean!",
+        "draft_tag": ["Aggressive", "CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Giant",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 0,
+        "description": "Slow but durable, only attacks buildings. A real one-man wrecking crew!",
+        "draft_tag": ["5costUnit", "Aggressive", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "P.E.K.K.A",
+        "elixir": 7,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 6,
+        "description": "A heavily armored, slow melee fighter. Swings from the hip, but packs a huge punch.",
+        "draft_tag": ["Aggressive", "CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Minions",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 0,
+        "description": "Three fast, unarmored flying attackers. Roses are red, minions are blue, they can fly, and will crush you!",
+        "draft_tag": ["3costUnit", "Aggressive", "AntiAir", "CheapCards"]
+    },
+    {
+        "name": "Balloon",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 7,
+        "description": "As pretty as they are, you won't want a parade of THESE balloons showing up on the horizon. Drops powerful bombs and when shot down, crashes dealing area damage.",
+        "draft_tag": ["5costUnit", "Aggressive", "AntiAir", "CoolStuff", "MainAttack"]
+    },
+    {
+        "name": "Witch",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 6,
+        "description": "Summons Skeletons, shoots destructo beams, has glowing pink eyes that unfortunately don't shoot lasers.",
+        "draft_tag": ["5costUnit", "AntiAir", "CoolStuff"]
+    },
+    {
+        "name": "Barbarians",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 3,
+        "description": "A horde of melee attackers with mean mustaches and even meaner tempers.",
+        "draft_tag": ["5costUnit", "Aggressive", "MainAttack"]
+    },
+    {
+        "name": "Golem",
+        "elixir": 8,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 10,
+        "description": "Slow but durable, only attacks buildings. When destroyed, explosively splits into two Golemites and deals area damage!",
+        "draft_tag": ["Aggressive", "CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Skeletons",
+        "elixir": 1,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 2,
+        "description": "Three fast, very weak melee fighters. Surround your enemies with this pile of bones!",
+        "draft_tag": ["Aggressive", "CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Valkyrie",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 2,
+        "description": "Tough melee fighter, deals area damage around her. Swarm or horde, no problem! She can take them all out with a few spins.",
+        "draft_tag": ["4costUnit", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Skeleton Army",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 6,
+        "description": "Spawns an army of Skeletons. Meet Larry and his friends Harry, Gerry, Terry, Mary, etc.",
+        "draft_tag": ["3costUnit", "Aggressive", "CheapCards", "CoolStuff"]
+    },
+    {
+        "name": "Bomber",
+        "elixir": 2,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 2,
+        "description": "Small, lightly protected skeleton who throws bombs. Deals area damage that can wipe out a swarm of enemies.",
+        "draft_tag": ["CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Musketeer",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 0,
+        "description": "Don't be fooled by her delicately coiffed hair, the Musketeer is a mean shot with her trusty boomstick.",
+        "draft_tag": ["4costUnit", "AntiAir", "MainAttack"]
+    },
+    {
+        "name": "Baby Dragon",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 6,
+        "description": "Burps fireballs from the sky that deal area damage. Baby dragons hatch cute, hungry and ready for a barbeque.",
+        "draft_tag": ["4costUnit", "AntiAir"]
+    },
+    {
+        "name": "Prince",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 7,
+        "description": "Don't let the little pony fool you. Once the Prince gets a running start, you WILL be trampled. Deals double damage once he gets charging.",
+        "draft_tag": ["5costUnit", "Aggressive", "CoolStuff", "MainAttack"]
+    },
+    {
+        "name": "Wizard",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 4,
+        "description": "The most awesome man to ever set foot in the Arena, the Wizard will blow you away with his handsomeness... and/or fireballs.",
+        "draft_tag": ["5costUnit", "AntiAir", "MainAttack"]
+    },
+    {
+        "name": "Mini P.E.K.K.A",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 0,
+        "description": "The Arena is a certified butterfly-free zone. No distractions for P.E.K.K.A, only destruction.",
+        "draft_tag": ["4costUnit", "Aggressive", "MainAttack"]
+    },
+    {
+        "name": "Spear Goblins",
+        "elixir": 2,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 1,
+        "description": "Three unarmored ranged attackers. Who the heck taught these guys to throw spears!? Who thought that was a good idea?!",
+        "draft_tag": ["AntiAir", "CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Giant Skeleton",
+        "elixir": 6,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 8,
+        "description": "The bigger the skeleton, the bigger the bomb. Carries a bomb that blows up when the Giant Skeleton dies.",
+        "draft_tag": ["CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Hog Rider",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 5,
+        "description": "Fast melee troop that targets buildings and can jump over the river. He followed the echoing call of \"Hog Riderrrrr\" all the way through the Arena doors.",
+        "draft_tag": ["4costUnit", "Aggressive", "MainAttack"]
+    },
+    {
+        "name": "Minion Horde",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 10,
+        "description": "Six fast, unarmored flying attackers. Three's a crowd, six is a horde!",
+        "draft_tag": ["5costUnit", "Aggressive", "AntiAir", "MainAttack"]
+    },
+    {
+        "name": "Ice Wizard",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 12,
+        "description": "This chill caster throws ice shards that slow down enemies' movement and attack speed. Despite being freezing cold, he has a handlebar mustache that's too hot for TV.",
+        "draft_tag": ["3costUnit", "AntiAir", "CheapCards", "CoolStuff", "Legendary"]
+    },
+    {
+        "name": "Royal Giant",
+        "elixir": 6,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 7,
+        "description": "Destroying enemy buildings with his massive cannon is his job; making a raggedy blond beard look good is his passion.",
+        "draft_tag": ["Aggressive", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Guards",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 6,
+        "description": "Three ruthless bone brothers with shields. Knock off their shields and all that's left are three ruthless bone brothers.",
+        "draft_tag": ["3costUnit", "CheapCards", "CoolStuff", "TankUnit"]
+    },
+    {
+        "name": "Princess",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 11,
+        "description": "This stunning Princess shoots flaming arrows from long range. If you're feeling warm feelings towards her, it's probably because you're on fire.",
+        "draft_tag": ["3costUnit", "Aggressive", "AntiAir", "CheapCards", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Dark Prince",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 7,
+        "description": "The Dark Prince deals area damage and lets his spiked club do the talking for him - because when he does talk, it sounds like he has a bucket on his head.",
+        "draft_tag": ["4costUnit", "Aggressive", "CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Three Musketeers",
+        "elixir": 9,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 7,
+        "description": "Trio of powerful, independent markswomen, fighting for justice and honor. Disrespecting them would not be just a mistake, it would be a cardinal sin!",
+        "draft_tag": ["AntiAir", "MainAttack"]
+    },
+    {
+        "name": "Lava Hound",
+        "elixir": 7,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 13,
+        "description": "The Lava Hound is a majestic flying beast that attacks buildings. The Lava Pups are less majestic angry babies that attack anything.",
+        "draft_tag": ["Aggressive", "AntiAir", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Ice Spirit",
+        "elixir": 1,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 8,
+        "description": "Spawns one lively little Ice Spirit to freeze a group of enemies. Stay frosty.",
+        "draft_tag": ["AntiAir", "CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Fire Spirit",
+        "elixir": 1,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 4,
+        "description": "The Fire Spirit is on a kamikaze mission to give you a warm hug. It'd be adorable if it wasn't on fire.",
+        "draft_tag": ["AntiAir", "CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Miner",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 11,
+        "description": "The Miner can burrow his way underground and appear anywhere in the Arena. It's not magic, it's a shovel. A shovel that deals reduced damage to Crown Towers.",
+        "draft_tag": ["3costUnit", "Aggressive", "CheapCards", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Sparky",
+        "elixir": 6,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 11,
+        "description": "Sparky slowly charges up, then unloads MASSIVE area damage. Overkill isn't in her vocabulary.",
+        "draft_tag": ["Aggressive", "AntiAir", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Bowler",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 13,
+        "description": "This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders roll through their target, hitting everything behind for a strike!",
+        "draft_tag": ["5costUnit", "CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Lumberjack",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 14,
+        "description": "He chops trees by day and hunts The Log by night. His bottle of Rage spills everywhere when he's defeated.",
+        "draft_tag": ["4costUnit", "Aggressive", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Battle Ram",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 3,
+        "description": "Two Barbarians holding a big log charge at the nearest building, dealing significant damage if they connect; then they go to town with their swords!",
+        "draft_tag": ["4costUnit", "Aggressive", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Inferno Dragon",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 11,
+        "description": "Shoots a focused beam of fire that increases in damage over time. Wears a helmet because flying can be dangerous.",
+        "draft_tag": ["4costUnit", "Aggressive", "AntiAir", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Ice Golem",
+        "elixir": 2,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 8,
+        "description": "He's tough, targets buildings and explodes when destroyed, slowing nearby enemies. Made entirely out of ice... or is he?! Yes.",
+        "draft_tag": ["Aggressive", "CheapCards", "TankUnit"]
+    },
+    {
+        "name": "Mega Minion",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 3,
+        "description": "Flying, armored and powerful. What could be its weakness?! Cupcakes.",
+        "draft_tag": ["3costUnit", "AntiAir", "CheapCards", "TankUnit"]
+    },
+    {
+        "name": "Dart Goblin",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 9,
+        "description": "Runs fast, shoots far and chews gum. How does he blow darts with a mouthful of Double Trouble Gum? Years of didgeridoo lessons.",
+        "draft_tag": ["3costUnit", "Aggressive", "AntiAir", "CheapCards"]
+    },
+    {
+        "name": "Goblin Gang",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 9,
+        "description": "Spawns six Goblins - three with knives, three with spears - at a discounted Elixir cost. It's like a Goblin Value Pack!",
+        "draft_tag": ["3costUnit", "Aggressive", "AntiAir", "CheapCards"]
+    },
+    {
+        "name": "Electro Wizard",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 11,
+        "description": "He lands with a \"POW!\", stuns nearby enemies and shoots lightning with both hands! What a show off.",
+        "draft_tag": ["4costUnit", "AntiAir", "CoolStuff", "Legendary"]
+    },
+    {
+        "name": "Elite Barbarians",
+        "elixir": 6,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 10,
+        "description": "Spawns a pair of leveled up Barbarians. They're like regular Barbarians, only harder, better, faster and stronger.",
+        "draft_tag": ["Aggressive", "MainAttack"]
+    },
+    {
+        "name": "Hunter",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 10,
+        "description": "He deals BIG damage up close - not so much at range. What he lacks in accuracy, he makes up for with his impressively bushy eyebrows.",
+        "draft_tag": ["4costUnit", "AntiAir", "MainAttack"]
+    },
+    {
+        "name": "Executioner",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 14,
+        "description": "He throws his axe like a boomerang, striking all enemies on the way out AND back. It's a miracle he doesn't lose an arm.",
+        "draft_tag": ["5costUnit", "AntiAir", "CoolStuff", "MainAttack"]
+    },
+    {
+        "name": "Bandit",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 13,
+        "description": "The Bandit dashes to her target and delivers an extra big hit! While dashing, she can't be touched. The mask keeps her identity safe, and gives her bonus cool points!",
+        "draft_tag": ["3costUnit", "Aggressive", "CheapCards", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Royal Recruits",
+        "elixir": 7,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 7,
+        "description": "Deploys a line of recruits armed with spears, shields and wooden buckets. They dream of ponies and one day wearing metal buckets.",
+        "draft_tag": ["AntiAir", "CoolStuff", "TankUnit"]
+    },
+    {
+        "name": "Night Witch",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 14,
+        "description": "Summons Bats to do her bidding! If you get too close, she's not afraid of pitching in with her mean-looking battle staff.",
+        "draft_tag": ["4costUnit", "AntiAir", "CoolStuff", "Legendary"]
+    },
+    {
+        "name": "Bats",
+        "elixir": 2,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 5,
+        "description": "Spawns a handful of tiny flying creatures. Think of them as sweet, purple... balls of DESTRUCTION!",
+        "draft_tag": ["Aggressive", "AntiAir", "CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Royal Ghost",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 12,
+        "description": "He drifts invisibly through the Arena until he's startled by an enemy... then he attacks! Then he's invisible again! Zzzz.",
+        "draft_tag": ["3costUnit", "Aggressive", "CheapCards", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Ram Rider",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 11,
+        "description": "Together they charge through the Arena; snaring enemies, knocking down towers ... and chewing grass!?",
+        "draft_tag": ["5costUnit", "Aggressive", "AntiAir", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Zappies",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 10,
+        "description": "Spawns a pack of miniature Zap machines. Who controls them...? Only the Master Builder knows.",
+        "draft_tag": ["4costUnit", "AntiAir", "CoolStuff"]
+    },
+    {
+        "name": "Rascals",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 13,
+        "description": "Spawns a mischievous trio of Rascals! The boy takes the lead, while the girls pelt enemies from behind... with slingshots full of Double Trouble Gum!",
+        "draft_tag": ["5costUnit", "AntiAir", "TankUnit"]
+    },
+    {
+        "name": "Cannon Cart",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 15,
+        "description": "A Cannon on wheels?! Bet they won't see that coming! Once you break its shield, it becomes a Cannon not on wheels.",
+        "draft_tag": ["5costUnit", "Aggressive", "CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Mega Knight",
+        "elixir": 7,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 11,
+        "description": "He lands with the force of 1,000 mustaches, then jumps from one foe to the next dealing huge area damage. Stand aside!",
+        "draft_tag": ["Aggressive", "AntiAir", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Skeleton Barrel",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 9,
+        "description": "It's a Skeleton party in the sky, until all the balloons pop... then it's a Skeleton party on the ground!",
+        "draft_tag": ["3costUnit", "Aggressive", "AntiAir", "CheapCards", "CoolStuff"]
+    },
+    {
+        "name": "Flying Machine",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 5,
+        "description": "The Master Builder has sent his first contraption to the Arena! It's a fast and fun flying machine, but fragile!",
+        "draft_tag": ["4costUnit", "AntiAir", "CoolStuff"]
+    },
+    {
+        "name": "Wall Breakers",
+        "elixir": 2,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 12,
+        "description": "A daring duo of dangerous dive bombers. Nothing warms a Wall Breaker's cold and undead heart like blowing up buildings.",
+        "draft_tag": ["Aggressive", "CheapCards", "CoolStuff", "MainAttack"]
+    },
+    {
+        "name": "Royal Hogs",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 7,
+        "description": "The King's personal pets are loose! They love to chomp on apples and towers alike - who let the hogs out?!",
+        "draft_tag": ["5costUnit", "Aggressive", "MainAttack"]
+    },
+    {
+        "name": "Goblin Giant",
+        "elixir": 6,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 9,
+        "description": "This jolly green Goblin Giant stomps towards enemy buildings. He carries two Spear Goblins everywhere he goes. It's a weird but functional arrangement.",
+        "draft_tag": ["Aggressive", "AntiAir", "CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Fisherman",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 15,
+        "description": "His Ranged Attack can pull enemies towards him, and pull himself to enemy buildings. He's also mastered the ancient art of 'Fish Slapping'.",
+        "draft_tag": ["3costUnit", "Aggressive", "AntiAir", "CheapCards", "CoolStuff", "Legendary", "TankUnit"]
+    },
+    {
+        "name": "Magic Archer",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 13,
+        "description": "Not quite a Wizard, nor an Archer - he shoots a magic arrow that passes through and damages all enemies in its path. It's not a trick, it's magic!",
+        "draft_tag": ["4costUnit", "AntiAir", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Electro Dragon",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 12,
+        "description": "Spits out bolts of electricity hitting up to three targets. Suffers from middle child syndrome to boot.",
+        "draft_tag": ["5costUnit", "AntiAir", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Firecracker",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 12,
+        "description": "Shoots a firework that explodes upon impact, damaging the target and showering anything directly behind it with sparks. This is what happens when Archers get bored!",
+        "draft_tag": ["3costUnit", "AntiAir", "CheapCards", "CoolStuff"]
+    },
+    {
+        "name": "Mighty Miner",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Champion",
+        "arena": 17,
+        "description": "Walk softly ... and carry a big drill!\n\nThis Champion deals increasing Damage to his target and can switch lanes to escape combat or change attack plans.\n\nThis makes him not only the mightiest, but also the sneakiest Miner in the Arena.",
+        "draft_tag": ["4costUnit", "Aggressive", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Super Witch",
+        "elixir": 6,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 5,
+        "description": "Summons Skeletons, shoots destructo beams, has glowing pink eyes that unfortunately don't shoot lasers.",
+        "draft_tag": ["AntiAir", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Elixir Golem",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 14,
+        "description": "Splits into two Elixir Golemites when destroyed, which split into two sentient Blobs when defeated. Each part of the Elixir Golem gives your opponent some Elixir when destroyed!",
+        "draft_tag": ["3costUnit", "Aggressive", "CheapCards", "CoolStuff", "TankUnit"]
+    },
+    {
+        "name": "Battle Healer",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 8,
+        "description": "With each attack, she unleashes a powerful healing aura that restores Hitpoints to herself and friendly Troops. When she isn't attacking, she passively heals herself!",
+        "draft_tag": ["4costUnit", "TankUnit"]
+    },
+    {
+        "name": "Skeleton King",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Champion",
+        "arena": 16,
+        "description": "The King of the undead himself. He sometimes feels lonely (could be due to his non flattering features) and will summon friends to join him in the battle even after death. Tough guys have feelings too!",
+        "draft_tag": ["4costUnit", "Aggressive", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Super Lava Hound",
+        "elixir": 8,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 10,
+        "description": "The Lava Hound is a majestic flying beast that attacks buildings. The Lava Pups are less majestic angry babies that attack anything.",
+        "draft_tag": ["Aggressive", "AntiAir", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Super Magic Archer",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 13,
+        "description": "Not quite a Wizard, nor an Archer - he shoots a magic arrow that passes through and damages all enemies in its path. It's not a trick, it's magic!",
+        "draft_tag": ["5costUnit", "AntiAir", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Archer Queen",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Champion",
+        "arena": 17,
+        "description": "She is fast, deadly and hard to catch. Beware of her crossbow bolts and try not to blink - you might miss her!",
+        "draft_tag": ["5costUnit", "Aggressive", "AntiAir", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Santa Hog Rider",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 5,
+        "description": "Fast melee troop that targets buildings and can jump over the river. He followed the echoing call of \"Hog Riderrrrr\" all the way through the Arena doors.",
+        "draft_tag": ["5costUnit", "Aggressive", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Golden Knight",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Champion",
+        "arena": 16,
+        "description": "A warrior with luxurious hair and outstanding flexibility. Demonstrates his aerobics skills on demand.",
+        "draft_tag": ["4costUnit", "Aggressive", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Super Ice Golem",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 8,
+        "description": "He's tough, targets buildings and explodes when destroyed, slowing nearby enemies. Made entirely out of ice... or is he?! Yes.",
+        "draft_tag": ["4costUnit", "Aggressive", "CoolStuff", "Legendary", "TankUnit"]
+    },
+    {
+        "name": "Monk",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Champion",
+        "arena": 18,
+        "description": "Monk has spent many isolated years perfecting a new style of combat.\n\nHe fires off a 3-hit combo, with the last blow dealing extra Damage and pushing enemies back!",
+        "draft_tag": ["5costUnit", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Super Archers",
+        "elixir": 3,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 24,
+        "description": "A pair of lightly armored ranged attackers. They'll help you take down ground and air units, but you're on your own with hair coloring advice.",
+        "draft_tag": ["3costUnit", "AntiAir", "CheapCards", "CoolStuff", "Legendary"]
+    },
+    {
+        "name": "Skeleton Dragons",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 4,
+        "description": "This pair of skeletal scorchers deal Area Damage and fly above the Arena. They also play a mean rib cage xylophone duet.",
+        "draft_tag": ["4costUnit", "AntiAir"]
+    },
+    {
+        "name": "Terry",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Champion",
+        "arena": 16,
+        "description": "Terry and his trusty companion Pim Pim bring their unconventional Hog Riding skills to the Arena!",
+        "draft_tag": ["4costUnit", "Aggressive", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Super Mini P.E.K.K.A",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 14,
+        "description": "The Arena is a certified butterfly-free zone. No distractions for P.E.K.K.A, only destruction.",
+        "draft_tag": ["5costUnit", "Aggressive", "CoolStuff", "Legendary", "MainAttack"]
+    },
+    {
+        "name": "Mother Witch",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 15,
+        "description": "Places a curse on enemy Troops with each attack. When a cursed Troop is destroyed, it turns into a building-targeting Hog that fights alongside the Mother Witch!\n\nShe also bakes great cookies.",
+        "draft_tag": ["4costUnit", "AntiAir", "CoolStuff", "Legendary"]
+    },
+    {
+        "name": "Electro Spirit",
+        "elixir": 1,
+        "type": "Troop",
+        "rarity": "Common",
+        "arena": 4,
+        "description": "Jumps on enemies, dealing Area Damage and stunning up to 9 enemy Troops. Locked in an eternal battle with Knight for the best mustache.",
+        "draft_tag": ["AntiAir", "CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Electro Giant",
+        "elixir": 7,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 13,
+        "description": "He channels electricity through his Zap Pack, a unique device that stuns and damages any Troop attacking him within its range.\n\nDon't tell him that his finger guns aren't real! He'll zap you.",
+        "draft_tag": ["AntiAir", "CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Raging Prince",
+        "elixir": 5,
+        "type": "Troop",
+        "rarity": "Epic",
+        "arena": 7,
+        "description": "Don't let the little pony fool you. Once the Prince gets a running start, you WILL be trampled. Deals double damage once he gets charging.",
+        "draft_tag": ["5costUnit", "Aggressive", "CoolStuff", "MainAttack"]
+    },
+    {
+        "name": "Phoenix",
+        "elixir": 4,
+        "type": "Troop",
+        "rarity": "Legendary",
+        "arena": 12,
+        "description": "This mystical creature will be reborn as an egg when destroyed. If it hatches, it returns to the fight! What an egg-cellent ability.\n\nBeing born again is tiring, so a hatched Phoenix will have slightly less Hitpoints and Damage (80% of its total).",
+        "draft_tag": ["4costUnit", "Aggressive", "AntiAir", "CoolStuff", "Legendary", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Cannon",
+        "elixir": 3,
+        "type": "Building",
+        "rarity": "Common",
+        "arena": 3,
+        "description": "Defensive building. Shoots cannonballs with deadly effect, but cannot target flying troops.",
+        "draft_tag": ["Buildings", "CheapCards"]
+    },
+    {
+        "name": "Goblin Hut",
+        "elixir": 5,
+        "type": "Building",
+        "rarity": "Rare",
+        "arena": 1,
+        "description": "Building that spawns Spear Goblins. Don't look inside... you don't want to see how they're made.",
+        "draft_tag": ["Aggressive", "AntiAir", "Buildings", "CoolStuff"]
+    },
+    {
+        "name": "Mortar",
+        "elixir": 4,
+        "type": "Building",
+        "rarity": "Common",
+        "arena": 5,
+        "description": "Defensive building with a long range. Shoots big boulders that deal area damage, but cannot hit targets that get too close!",
+        "draft_tag": ["Aggressive", "Buildings"]
+    },
+    {
+        "name": "Inferno Tower",
+        "elixir": 5,
+        "type": "Building",
+        "rarity": "Rare",
+        "arena": 4,
+        "description": "Defensive building, roasts targets for damage that increases over time. Burns through even the biggest and toughest enemies!",
+        "draft_tag": ["AntiAir", "Buildings"]
+    },
+    {
+        "name": "Bomb Tower",
+        "elixir": 4,
+        "type": "Building",
+        "rarity": "Rare",
+        "arena": 4,
+        "description": "Defensive building that houses a Bomber. Deals area damage to anything dumb enough to stand near it.",
+        "draft_tag": ["Buildings"]
+    },
+    {
+        "name": "Barbarian Hut",
+        "elixir": 6,
+        "type": "Building",
+        "rarity": "Rare",
+        "arena": 9,
+        "description": "Building that periodically spawns Barbarians to fight the enemy. Time to make the Barbarians!",
+        "draft_tag": ["Aggressive", "Buildings", "CoolStuff"]
+    },
+    {
+        "name": "Tesla",
+        "elixir": 4,
+        "type": "Building",
+        "rarity": "Common",
+        "arena": 10,
+        "description": "Defensive building. Whenever it's not zapping the enemy, the power of Electrickery is best kept grounded.",
+        "draft_tag": ["AntiAir", "Buildings"]
+    },
+    {
+        "name": "Elixir Collector",
+        "elixir": 6,
+        "type": "Building",
+        "rarity": "Rare",
+        "arena": 15,
+        "description": "You gotta spend Elixir to make Elixir! This building makes 8 Elixir over its Lifetime. Does not appear in your starting hand.",
+        "draft_tag": ["Buildings", "CoolStuff"]
+    },
+    {
+        "name": "X-Bow",
+        "elixir": 6,
+        "type": "Building",
+        "rarity": "Epic",
+        "arena": 10,
+        "description": "Nice tower you got there. Would be a shame if this X-Bow whittled it down from this side of the Arena...",
+        "draft_tag": ["Aggressive", "AntiAir", "Buildings", "CoolStuff"]
+    },
+    {
+        "name": "Tombstone",
+        "elixir": 3,
+        "type": "Building",
+        "rarity": "Rare",
+        "arena": 2,
+        "description": "Building that periodically spawns Skeletons to fight the enemy... and when destroyed, spawns 4 more Skeletons! Creepy!",
+        "draft_tag": ["Aggressive", "Buildings", "CheapCards", "CoolStuff"]
+    },
+    {
+        "name": "Furnace",
+        "elixir": 4,
+        "type": "Building",
+        "rarity": "Rare",
+        "arena": 10,
+        "description": "The Furnace spawns one Fire Spirit at a time. It also makes great brick-oven pancakes.",
+        "draft_tag": ["Aggressive", "AntiAir", "Buildings", "CoolStuff"]
+    },
+    {
+        "name": "Goblin Cage",
+        "elixir": 4,
+        "type": "Building",
+        "rarity": "Rare",
+        "arena": 1,
+        "description": "When the Goblin Cage is destroyed, a Goblin Brawler is unleashed into the Arena! Goblin Brawler always skips leg day.",
+        "draft_tag": ["Aggressive", "Buildings", "CoolStuff", "MainAttack", "TankUnit"]
+    },
+    {
+        "name": "Goblin Drill",
+        "elixir": 4,
+        "type": "Building",
+        "rarity": "Epic",
+        "arena": 14,
+        "description": "Building capable of burrowing underground and appearing anywhere in the Arena. Spawns Goblins one at a time until destroyed. Then spawns a few more, to make sure everything nearby has been properly stabbed.",
+        "draft_tag": ["Aggressive", "Buildings", "CoolStuff"]
+    },
+    {
+        "name": "Party Hut",
+        "elixir": 5,
+        "type": "Building",
+        "rarity": "Legendary",
+        "arena": 10,
+        "description": "Building that spawns Spear Goblins. Don't look inside... you don't want to see how they're made.",
+        "draft_tag": ["Aggressive", "AntiAir", "Buildings", "CoolStuff", "Legendary"]
+    },
+    {
+        "name": "Fireball",
+        "elixir": 4,
+        "type": "Spell",
+        "rarity": "Rare",
+        "arena": 0,
+        "description": "Annnnnd... Fireball. Incinerates a small area, dealing high damage. Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "DamageSpell"]
+    },
+    {
+        "name": "Arrows",
+        "elixir": 3,
+        "type": "Spell",
+        "rarity": "Common",
+        "arena": 0,
+        "description": "Arrows pepper a large area, damaging all enemies hit. Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "CheapCards", "DamageSpell"]
+    },
+    {
+        "name": "Rage",
+        "elixir": 2,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 14,
+        "description": "Increases troop movement and attack speed. Buildings attack faster and summon troops quicker, too. Chaaaarge!",
+        "draft_tag": ["CheapCards", "CoolStuff"]
+    },
+    {
+        "name": "Rocket",
+        "elixir": 6,
+        "type": "Spell",
+        "rarity": "Rare",
+        "arena": 5,
+        "description": "Deals high damage to a small area. Looks really awesome doing it. Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "DamageSpell"]
+    },
+    {
+        "name": "Goblin Barrel",
+        "elixir": 3,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 6,
+        "description": "Spawns three Goblins anywhere in the Arena. It's going to be a thrilling ride, boys!",
+        "draft_tag": ["Aggressive", "CheapCards", "CoolStuff"]
+    },
+    {
+        "name": "Freeze",
+        "elixir": 4,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 8,
+        "description": "Freezes and damages enemy troops and buildings, making them unable to move or attack. Everybody chill. Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "CoolStuff", "DamageSpell"]
+    },
+    {
+        "name": "Mirror",
+        "elixir": 1,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 15,
+        "description": "Mirrors your last card played for +1 Elixir. Does not appear in your starting hand.",
+        "draft_tag": ["CheapCards", "CoolStuff"]
+    },
+    {
+        "name": "Lightning",
+        "elixir": 6,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 8,
+        "description": "Bolts of lightning damage and stun up to three enemy troops or buildings with the most hitpoints in the target area. Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "DamageSpell"]
+    },
+    {
+        "name": "Zap",
+        "elixir": 2,
+        "type": "Spell",
+        "rarity": "Common",
+        "arena": 5,
+        "description": "Zaps enemies, briefly stunning them and dealing damage inside a small radius. Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "CheapCards", "DamageSpell"]
+    },
+    {
+        "name": "Poison",
+        "elixir": 4,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 9,
+        "description": "Covers the area in a deadly toxin, damaging enemy troops and buildings over time. Yet somehow leaves the grass green and healthy. Go figure! Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "DamageSpell"]
+    },
+    {
+        "name": "Graveyard",
+        "elixir": 5,
+        "type": "Spell",
+        "rarity": "Legendary",
+        "arena": 12,
+        "description": "Surprise! It's a party. A Skeleton party, anywhere in the Arena. Yay!",
+        "draft_tag": ["Aggressive", "CoolStuff", "Legendary"]
+    },
+    {
+        "name": "The Log",
+        "elixir": 2,
+        "type": "Spell",
+        "rarity": "Legendary",
+        "arena": 11,
+        "description": "A spilt bottle of Rage turned an innocent tree trunk into \"The Log\". Now, it seeks revenge by crushing anything in its path! Reduced damage to Crown Towers.",
+        "draft_tag": ["CheapCards", "CoolStuff", "DamageSpell", "Legendary"]
+    },
+    {
+        "name": "Tornado",
+        "elixir": 3,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 15,
+        "description": "Drags enemy troops to its center while dealing damage over time, just like a magnet. A big, swirling, Tornado-y magnet.",
+        "draft_tag": ["AntiAir", "CheapCards", "CoolStuff", "DamageSpell"]
+    },
+    {
+        "name": "Clone",
+        "elixir": 3,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 15,
+        "description": "Duplicates all friendly troops in the target area. Cloned troops are fragile, but pack the same punch as the original! Doesn't affect buildings.",
+        "draft_tag": ["CheapCards", "CoolStuff"]
+    },
+    {
+        "name": "Earthquake",
+        "elixir": 3,
+        "type": "Spell",
+        "rarity": "Rare",
+        "arena": 12,
+        "description": "Deals Damage per second to Troops and Crown Towers. Deals huge Building Damage! Does not affect flying units (it is an EARTHquake, after all).",
+        "draft_tag": ["CheapCards", "DamageSpell"]
+    },
+    {
+        "name": "Barbarian Barrel",
+        "elixir": 2,
+        "type": "Spell",
+        "rarity": "Epic",
+        "arena": 9,
+        "description": "It rolls over and damages anything in its path, then breaks open and out pops a Barbarian! How did he get inside?!",
+        "draft_tag": ["CheapCards", "CoolStuff", "DamageSpell"]
+    },
+    {
+        "name": "Heal Spirit",
+        "elixir": 1,
+        "type": "Troop",
+        "rarity": "Rare",
+        "arena": 13,
+        "description": "A mischievous Spirit that leaps at enemies, dealing Damage and leaving behind a powerful healing effect that restores Hitpoints to friendly Troops!\n\nR.I.P. Heal\n2017 - 2020\nAlas, we hardly used ye.",
+        "draft_tag": ["AntiAir", "CheapCards", "CheapDudes"]
+    },
+    {
+        "name": "Giant Snowball",
+        "elixir": 2,
+        "type": "Spell",
+        "rarity": "Common",
+        "arena": 8,
+        "description": "It's HUGE! Once it began rolling down Frozen Peak, there was no stopping it. Enemies hit are knocked back and slowed down. Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "CheapCards", "DamageSpell"]
+    },
+    {
+        "name": "Royal Delivery",
+        "elixir": 3,
+        "type": "Spell",
+        "rarity": "Common",
+        "arena": 14,
+        "description": "No need to sign for this package!\n\nDropped from the sky, it deals Area Damage to enemy Troops before delivering a Royal Recruit.\n\nThe empty box is also handy for espionage.",
+        "draft_tag": ["AntiAir", "CheapCards", "CoolStuff", "DamageSpell"]
+    },
+    {
+        "name": "Party Rocket",
+        "elixir": 5,
+        "type": "Spell",
+        "rarity": "Legendary",
+        "arena": 15,
+        "description": "Deals high damage to a small area. Looks really awesome doing it. Reduced damage to Crown Towers.",
+        "draft_tag": ["AntiAir", "CoolStuff", "DamageSpell", "Legendary"]
+    }
+]

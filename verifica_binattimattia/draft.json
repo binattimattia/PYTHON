@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Draft_simple",
+        "description": "Un draft bilanciato con una selezione di carte essenziali e opzioni varie.",
+        "required_sets": [
+            "AllRandom",
+            "DamageSpell",
+            "AntiAir",
+            "MainAttack"
+        ],
+        "optional_sets": [
+            "TankUnit",
+            "3costUnit",
+            "4costUnit",
+            "5costUnit",
+            "Aggressive",
+            "Buildings",
+            "CheapDudes",
+            "CoolStuff",
+            "Legendary",
+            "CheapCards"
+        ]
+    },
+    {
+        "name": "Draft_HeavyHitters",
+        "description": "Costruisci un mazzo con le unità più potenti e costose, supportate da incantesimi devastanti.",
+        "required_sets": [
+            "TankUnit",
+            "MainAttack",
+            "5costUnit",
+            "DamageSpell"
+        ],
+        "optional_sets": [
+            "AntiAir",
+            "3costUnit",
+            "4costUnit",
+            "Aggressive",
+            "Buildings",
+            "CheapDudes",
+            "CoolStuff",
+            "Legendary",
+            "CheapCards"
+        ]
+    },
+    {
+        "name": "Draft_FancyFlash",
+        "description": "Sfoggia la tua abilità con carte Leggendarie e dagli effetti unici e spettacolari!",
+        "required_sets": [
+            "Legendary",
+            "CoolStuff",
+            "DamageSpell",
+            "MainAttack"
+        ],
+        "optional_sets": [
+            "AntiAir",
+            "TankUnit",
+            "3costUnit",
+            "4costUnit",
+            "5costUnit",
+            "Aggressive",
+            "Buildings",
+            "CheapDudes",
+            "CheapCards"
+        ]
+    },
+    {
+        "name": "Draft_RushSwarm",
+        "description": "Sopraffai l'avversario con un'orda di unità economiche e attacchi aggressivi e veloci!",
+        "required_sets": [
+            "CheapCards",
+            "Aggressive",
+            "CheapDudes",
+            "DamageSpell"
+        ],
+        "optional_sets": [
+            "AntiAir",
+            "MainAttack",
+            "TankUnit",
+            "3costUnit",
+            "4costUnit",
+            "5costUnit",
+            "Buildings",
+            "CoolStuff",
+            "Legendary"
+        ]
+    },
+    {
+        "name": "Draft_SkyHigh",
+        "description": "Domina i cieli! Scegli potenti unità volanti e difese anti-aeree impenetrabili.",
+        "required_sets": [
+            "AntiAir",
+            "CoolStuff",
+            "DamageSpell",
+            "MainAttack"
+        ],
+        "optional_sets": [
+            "TankUnit",
+            "3costUnit",
+            "4costUnit",
+            "5costUnit",
+            "Aggressive",
+            "Buildings",
+            "CheapDudes",
+            "Legendary",
+            "CheapCards"
+        ]
+    }
+]

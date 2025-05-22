@@ -1,0 +1,17 @@
+[
+    {
+        "titolo": "The Legend of Zelda: Breath of the Wild",
+        "tipo": "Avventura",
+        "punteggio": 97
+    },
+    {
+        "titolo": "The Witcher 3: Wild Hunt",
+        "tipo": "GDR",
+        "punteggio": 93
+    },
+    {
+        "titolo": "Minecraft",
+        "tipo": "Sandbox",
+        "punteggio": 91
+    }
+]
